@@ -1,33 +1,12 @@
-/* 
+let idade = 19;
 
-*/
-
-// Conversão automática de tipos
-let a = 5;
-let b = "5";
-
-{
-if (a = b) {
-console.log("true");
+if (idade < 13) {
+    console.log("Criança");
+} else if (idade < 18) {
+    console.log("Adolescente");
+} else if (idade < 60) {
+    console.log("Adulto");
 } else {
-console.log("false");
-}
-}
-
-{
-// Comparação estrita de tipos
-if (a != b) {
-console.log("true");
-} else {
-console.log("false");   
-}
+    console.log("Idoso");
 }
 
-{
-// Comparação de valores diferentes
-if (a !== b) {
-console.log("true");
-} else {
-console.log("false");   
-}
-}   
