@@ -1,20 +1,33 @@
-/*
-    Em portugol:
+/* 
 
-    numero nota = 85
-
-    se (nota >= 90) 
-        escreva("Aprovado")
-    senao
-        escreva("Reprovado")
-    
 */
 
-let nota = 85;
+// Conversão automática de tipos
+let a = 5;
+let b = "5";
 
-
-if (nota >= 90) {
-    console.log("Aprovado");
+{
+if (a = b) {
+console.log("true");
 } else {
-    console.log("Reprovado");
+console.log("false");
 }
+}
+
+{
+// Comparação estrita de tipos
+if (a != b) {
+console.log("true");
+} else {
+console.log("false");   
+}
+}
+
+{
+// Comparação de valores diferentes
+if (a !== b) {
+console.log("true");
+} else {
+console.log("false");   
+}
+}   
